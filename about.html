@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Basic -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Mobile Metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Site Metas -->
+<title>SecqurAIse Technologies</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Site Icons -->
+<link rel="shortcut icon" href="images/logox.png" type="image/x-icon" />
+<link rel="apple-touch-icon" href="images/logox.png">
+
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- Site CSS -->
+<link rel="stylesheet" href="style.css">
+<!-- ALL VERSION CSS -->
+<link rel="stylesheet" href="css/versions.css">
+<!-- Responsive CSS -->
+<link rel="stylesheet" href="css/responsive.css">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="css/custom.css">
+
+<!-- Modernizer for Portfolio -->
+<script src="js/modernizer.js"></script>
+
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body class="host_version">
+
+	<!-- Modal -->
+	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header tit-up">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title">Customer Login</h4>
+				</div>
+				<div class="modal-body customer-box">
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs">
+						<li><a class="active" href="#Login" data-toggle="tab">Login</a></li>
+						<li><a href="#Registration" data-toggle="tab">Registration</a></li>
+					</ul>
+					<!-- Tab panes -->
+					<div class="tab-content">
+						<div class="tab-pane active" id="Login">
+							<form role="form" class="form-horizontal">
+								<div class="form-group">
+									<div class="col-sm-12">
+										<input class="form-control" id="email1" placeholder="Name" type="text">
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-sm-12">
+										<input class="form-control" id="exampleInputPassword1" placeholder="Email"
+											type="email">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-10">
+										<button type="submit" class="btn btn-light btn-radius btn-brd grd1">
+											Submit
+										</button>
+										<a class="for-pwd" href="javascript:;">Forgot your password?</a>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="tab-pane" id="Registration">
+							<form role="form" class="form-horizontal">
+								<div class="form-group">
+									<div class="col-sm-12">
+										<input class="form-control" placeholder="Name" type="text">
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-sm-12">
+										<input class="form-control" id="email" placeholder="Email" type="email">
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-sm-12">
+										<input class="form-control" id="mobile" placeholder="Mobile" type="email">
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-sm-12">
+										<input class="form-control" id="password" placeholder="Password"
+											type="password">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-10">
+										<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+											Save &amp; Continue
+										</button>
+										<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+											Cancel</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- LOADER -->
+	<div id="preloader">
+		<div class="loader-container">
+			<div class="progress-br float shadow">
+				<div class="progress__item"></div>
+			</div>
+		</div>
+	</div>
+	<!-- END LOADER -->
+
+	<!-- Start header -->
+	<header class="top-navbar">
+		<nav class="navbar navbar-expand-lg navbar-light bg-white ">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">
+					<img src="images/draft 1.png" alt="" style="width: 200px;height: 50;" />
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host"
+					aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbars-host">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+
+						<li class="nav-item  dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Products
+							</a>
+							<div class="dropdown-menu" aria-labelledby="dropdown-a">
+								<a class="dropdown-item" href="secqurvisit.html">SECQURVISIT </a>
+								<a class="dropdown-item" href="secqurwork.html">SECQURWORK </a>
+								<a class="dropdown-item" href="secqurvision.html">SECQURVISION </a>
+								<a class="dropdown-item" href="secqurin.html">SECQURIN </a>
+								<a class="dropdown-item" href="secqurcheck.html">SECQURCHECK </a>
+
+							</div>
+						</li>
+						<!--	<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Blog </a>
+							<div class="dropdown-menu" aria-labelledby="dropdown-a">
+								<a class="dropdown-item" href="blog.html">Blog </a>
+								<a class="dropdown-item" href="blog-single.html">Blog single </a>
+							</div>
+						</li> -->
+						<li class="nav-item"><a class="nav-link" href="execution.html">Execution </a></li>
+						<li class="nav-item"><a class="nav-link" href="technology.html">Technology </a></li>
+						<li class="nav-item"><a class="nav-link" href="career.html">Careers </a></li>
+						<li class="nav-item active"><a class="nav-link" href="about.html">About Us</a></li>
+					</ul>
+					<!--<ul class="nav navbar-nav navbar-right">
+                        <li><a class="hover-btn-new log orange" href="#" data-toggle="modal" data-target="#login"><span>Book Now</span></a></li>
+                    </ul>-->
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<!-- End header -->
+	<div id="carouselExampleControls" class="carousel slide bs-slider box-slider" data-ride="carousel"
+		data-pause="hover" data-interval="false">
+		<div class="carousel-inner" role="listbox">
+			<div class="carousel-item active">
+				<div id="home" class="first-section" style="background-image:url('images/backgr.jpeg');">
+					<div class="dtab">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12 col-sm-12 text-center">
+									<div class="big-tagline">
+										<h2 data-animation="animated zoomInRight"><strong>ABOUT US</strong></h2>
+										<p class="lead" data-animation="animated fadeInLeft">CCTV cameras that act as the eyes on the wall are inadequate for security as they do not have the brains to process the information that they gather. </p>
+
+									</div>
+								</div>
+							</div><!-- end row -->
+						</div><!-- end container -->
+					</div>
+				</div><!-- end section -->
+			</div>
+
+		</div>
+	</div>
+
+
+	<!--<div class="all-title-box">
+		<div class="container text-center">
+			<h2 data-animation="animated zoomInRight"><strong>SECQURVISIT</strong></h2>
+										<p class="lead" data-animation="animated fadeInLeft">SecqurVisit offers an efficient and extremely user friendly system that can aid the organization
+                                            in safeguarding against transgressions by visitors while offering a superlative experience as they
+                                            enter and exit facilities. </p>
+		</div>
+	</div> -->
+
+	<div id="overviews" class="section wb">
+		<div class="container">
+
+
+			<div class="row align-items-center">
+				<div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
+					<div class="message-box">
+						<!-- <h4>SecqurAIse Technologies</h4> -->
+						<h2>SECQURVISION</h2>
+						<p class="lead">Surveillance to a large extent today is being handled through a network of CCTV cameras with limited or no manpower to monitor the live feed. Due to this, a typical CCTV surveillance setup is used as a post-mortem tool to investigate security violations in the area of coverage.</p>
+						<P class="lead">  Even in facilities where human monitoring is available, they are highly ineffective due to the inherent inadequacy of human beings to monitor multiple video feeds continuously. 
+						</p>
+						<h4>The typical challenges faced in traditional surveillance systems are:</h4>
+						<p class="lead">CCTV cameras that act as the eyes on the wall are inadequate for security as they do not have the brains to process the information that they gather.</p> 
+
+
+						<p class="lead"> SecqurAIse’s state-of-the-art surveillance platform, typically deployed as a layer on top of the legacy surveillance setup, addresses the gaps transforming them into proactive and preventive tools from the post-mortem tools of today.</p>
+						<p class="lead">The platform leverages a number of sensors including CCTV cameras to keep a close watch on the secured premises and detect security violations in real-time to alert stakeholders and also trigger responses like deploying a tyre killer, Closing a Boom Barrier, sounding a hooter, Switching on a flood light, launching a drone, etc., </p>
+						<p class="lead"> The platform converts the legacy surveillance systems which provide data to proactive systems which help stakeholders respond to situations effectively.</p>
+						
+						<!--  <a href="#" class="hover-btn-new orange"><span>Learn More</span></a>-->
+					</div><!-- end messagebox -->
+				</div><!-- end col -->
+
+				<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+					<div class="post-media wow fadeIn">
+						<img src="images/s2.png" alt="" class="img-fluid img-rounded">
+					</div><!-- end media -->
+				</div><!-- end col -->
+			</div>
+			<div class="row align-items-center">
+			
+
+				<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+					<div class="message-box">
+					
+						<h4>Real-time Monitoring:</h4>
+						<p class="lead">By analyzing live footage from the CCTV cameras in near-real-time, the platform obviates the need to setup a huge Command and Control Centre and deploy human resources for monitoring.</p>
+
+						<p class="lead"> Apart from being inefficient, the human element impacts the
+							visitors’ experience leaving a not so positive experience at the first point of contactm.
+						</p>
+						<h4>Color-coding:</h4>
+						<p class="lead">Incidents are color coded into <span style="background-color: red; color: black;">RED</span>, <span style="background-color:yellow; color: black;">YELLOW</span>, <span style="background-color: green; color: black;">GREEN</span>, <span style="background-color: blue; color: black;">BLUE</span> and <span style="background-color: gray; color: black;">GRAY</span> based on severity to draw attention to the most relevant incidents so response can be provided efficiently.</p>
+						
+							<h4>Rule based alerts:</h4>
+							<p class="lead">On detection of anomalies, the platform alerts relevant stakeholders and respondents based on pre-configured rules. Some of the anomalies captured by the platform are: </p>
+							<ul>
+								
+								
+								<li><p class="lead">Unauthorized entry and exit of people and vehicles at secure locations.</p></li>
+								<li><p class="lead">Presence and Absence of personnel in defined stations.</p></li>
+								<li><p class="lead">Emergencies like fire, blast and accidents.</p></li>
+								<li><p class="lead">Over speeding of vehicles.</p></li>
+								<li><p class="lead">Activities like running, collapsing, crowding, climbing and scuffle.</p></li>
+								<li><p class="lead">Destructive acts like Vandalism and littering.</p></li>
+								<li><p class="lead">Physical defects in manufactured products.</p></li>
+								<li><p class="lead">Deviations in process followed in assembly lines.</p></li>
+							</ul>
+							<h4>Automatic Response:</h4>
+							<p class="lead">When incidents of significance occur, the platform can provide real-time response on certain scenarios. Some of the typical responses possible are: </p>
+							<ul>
+								
+								
+								<li><p class="lead">Operating a PTZ camera to zoom in on the area of incident.</p></li>
+								<li><p class="lead">Turning on Focus lights to shine on the area of incident.</p></li>
+								<li><p class="lead">Sounding a Siren.</p></li>
+								<li><p class="lead">Making Voice calls to a list of people.</p></li>
+								<li><p class="lead">Operating a Boom Barrier/Tyre Rippers/ Bollards.</p></li>
+							
+								<li><p class="lead">Deploying a drone for closer scrutiny.</p></li>
+								
+							</ul>
+
+							<h4>Response tracking:</h4>
+							<p class="lead">The platform can track the action taken by the designated responders to identified incidents. If time-bound response is not provided it can also escalate by sending alerts to higher authorities in a pre-configured manner.</p>
+
+							<h4>Post-facto Analysis:</h4>
+							<p class="lead">Insights generated by analysing the live video footage are stored and presented through interactive dashboards helping users get deep insights on incidents without having to scan through hours of video footage.</p>
+
+							
+					</div><!-- end messagebox -->
+				</div><!-- end col -->
+
+			</div><!-- end row -->
+
+		
+			<div class="row align-items-center">
+				<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+					<div class="message-box">
+							<h4>Interactive Dashboard:</h4>
+							<br>
+							<div class="post-media wow fadeIn">
+								<img src="images/s3.png" alt="" class="img-fluid img-rounded">
+							</div><!-- end media -->
+							<p class="lead">The platform offers an interactive dashboard to help stakeholders consume information of relevance without wasting too much time. The dashboard is highly customizable and can be modified to suit the needs of the end user.</p>
+			
+							<h4>Daily Capsule:</h4>
+							<p class="lead">The platform provides daily capsule for users to get deep insights on the area under surveillance through visual tools.</p>
+							<h4>Investigation:</h4>
+							<p class="lead">Users are provided with multiple tools to aid in investigation. Search interfaces through which users can search for key words – like Name, Vehicle Number, Activity, Object, etc are provided.</p>
+					</div><!-- end messagebox -->
+			</div>
+		
+
+			
+		
+
+		
+
+
+
+
+			
+
+
+
+
+		</div><!-- end container -->
+	</div><!-- end section -->
+
+
+
+
+	<div id="overviews" class="section wb">
+		<div class="container">
+			<div class="section-title row text-center">
+				<div class="col-md-8 offset-md-2">
+					<p class="lead">Lorem Ipsum dolroin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
+						lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem!</p>
+				</div>
+			</div><!-- end title -->
+
+			<hr class="invis">
+
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-12">
+					<div class="course-item">
+						<div class="image-blog">
+							<img src="images/blog_1.jpg" alt="" class="img-fluid">
+						</div>
+						<div class="course-br">
+							<div class="course-title">
+								<h2><a href="#" title="">Engineering</a></h2>
+							</div>
+							<div class="course-desc">
+								<p>Lorem ipsum door sit amet, fugiat deicata avise id cum, no quo maiorum intel ogrets
+									geuiat operts elicata libere avisse id cumlegebat, liber regione eu sit.... </p>
+							</div>
+							<div class="course-rating">
+								4.5
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-half"></i>
+							</div>
+						</div>
+						<div class="course-meta-bot">
+							<ul>
+								<li><i class="fa fa-calendar" aria-hidden="true"></i> 6 Month</li>
+								<li><i class="fa fa-users" aria-hidden="true"></i> 56 Student</li>
+								<li><i class="fa fa-book" aria-hidden="true"></i> 7 Books</li>
+							</ul>
+						</div>
+					</div>
+				</div><!-- end col -->
+
+				<div class="col-lg-6 col-md-6 col-12">
+					<div class="course-item">
+						<div class="image-blog">
+							<img src="images/blog_2.jpg" alt="" class="img-fluid">
+						</div>
+						<div class="course-br">
+							<div class="course-title">
+								<h2><a href="#" title="">Hotel Management</a></h2>
+							</div>
+							<div class="blog-desc">
+								<p>Lorem ipsum door sit amet, fugiat deicata avise id cum, no quo maiorum intel ogrets
+									geuiat operts elicata libere avisse id cumlegebat, liber regione eu sit.... </p>
+							</div>
+							<div class="course-rating">
+								4.5
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-half"></i>
+							</div>
+						</div>
+						<div class="course-meta-bot">
+							<ul>
+								<li><i class="fa fa-calendar" aria-hidden="true"></i> 6 Month</li>
+								<li><i class="fa fa-users" aria-hidden="true"></i> 56 Student</li>
+								<li><i class="fa fa-book" aria-hidden="true"></i> 7 Books</li>
+							</ul>
+						</div>
+					</div>
+				</div><!-- end col -->
+			</div><!-- end row -->
+
+			<hr class="hr3">
+
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-12">
+					<div class="course-item">
+						<div class="image-blog">
+							<img src="images/blog_3.jpg" alt="" class="img-fluid">
+						</div>
+						<div class="course-br">
+							<div class="course-title">
+								<h2><a href="#" title="">Biotechnology</a></h2>
+							</div>
+							<div class="course-desc">
+								<p>Lorem ipsum door sit amet, fugiat deicata avise id cum, no quo maiorum intel ogrets
+									geuiat operts elicata libere avisse id cumlegebat, liber regione eu sit.... </p>
+							</div>
+							<div class="course-rating">
+								4.5
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-half"></i>
+							</div>
+						</div>
+						<div class="course-meta-bot">
+							<ul>
+								<li><i class="fa fa-calendar" aria-hidden="true"></i> 6 Month</li>
+								<li><i class="fa fa-users" aria-hidden="true"></i> 56 Student</li>
+								<li><i class="fa fa-book" aria-hidden="true"></i> 7 Books</li>
+							</ul>
+						</div>
+					</div>
+				</div><!-- end col -->
+				<div class="col-lg-6 col-md-6 col-12">
+					<div class="course-item">
+						<div class="image-blog">
+							<img src="images/blog_4.jpg" alt="" class="img-fluid">
+						</div>
+						<div class="course-br">
+							<div class="course-title">
+								<h2><a href="#" title="">Medical Sciences</a></h2>
+							</div>
+							<div class="course-desc">
+								<p>Lorem ipsum door sit amet, fugiat deicata avise id cum, no quo maiorum intel ogrets
+									geuiat operts elicata libere avisse id cumlegebat, liber regione eu sit.... </p>
+							</div>
+							<div class="course-rating">
+								4.5
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-half"></i>
+							</div>
+						</div>
+						<div class="course-meta-bot">
+							<ul>
+								<li><i class="fa fa-calendar" aria-hidden="true"></i> 6 Month</li>
+								<li><i class="fa fa-users" aria-hidden="true"></i> 56 Student</li>
+								<li><i class="fa fa-book" aria-hidden="true"></i> 7 Books</li>
+							</ul>
+						</div>
+					</div>
+				</div><!-- end col -->
+			</div><!-- end row -->
+
+			<hr class="hr3">
+
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-12">
+					<div class="course-item">
+						<div class="image-blog">
+							<img src="images/blog_5.jpg" alt="" class="img-fluid">
+						</div>
+						<div class="course-br">
+							<div class="course-title">
+								<h2><a href="#" title="">Finance</a></h2>
+							</div>
+							<div class="course-desc">
+								<p>Lorem ipsum door sit amet, fugiat deicata avise id cum, no quo maiorum intel ogrets
+									geuiat operts elicata libere avisse id cumlegebat, liber regione eu sit.... </p>
+							</div>
+							<div class="course-rating">
+								4.5
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-half"></i>
+							</div>
+						</div>
+						<div class="course-meta-bot">
+							<ul>
+								<li><i class="fa fa-calendar" aria-hidden="true"></i> 6 Month</li>
+								<li><i class="fa fa-users" aria-hidden="true"></i> 56 Student</li>
+								<li><i class="fa fa-book" aria-hidden="true"></i> 7 Books</li>
+							</ul>
+						</div>
+					</div>
+				</div><!-- end col -->
+
+				<div class="col-lg-6 col-md-6 col-12">
+					<div class="course-item">
+						<div class="image-blog">
+							<img src="images/blog_6.jpg" alt="" class="img-fluid">
+						</div>
+						<div class="course-br">
+							<div class="course-title">
+								<h2><a href="#" title="">Fashion Designing</a></h2>
+							</div>
+							<div class="course-desc">
+								<p>Lorem ipsum door sit amet, fugiat deicata avise id cum, no quo maiorum intel ogrets
+									geuiat operts elicata libere avisse id cumlegebat, liber regione eu sit.... </p>
+							</div>
+							<div class="course-rating">
+								4.5
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-half"></i>
+							</div>
+						</div>
+						<div class="course-meta-bot">
+							<ul>
+								<li><i class="fa fa-calendar" aria-hidden="true"></i> 6 Month</li>
+								<li><i class="fa fa-users" aria-hidden="true"></i> 56 Student</li>
+								<li><i class="fa fa-book" aria-hidden="true"></i> 7 Books</li>
+							</ul>
+						</div>
+					</div>
+				</div><!-- end col -->
+			</div><!-- end row -->
+		</div><!-- end container -->
+	</div><!-- end section -->
+
+	<div class="parallax section dbcolor">
+		<div class="container">
+			<div class="row logos">
+				<div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+					<a href="#"><img src="images/logo_01.png" alt="" class="img-repsonsive"></a>
+				</div>
+				<div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+					<a href="#"><img src="images/logo_02.png" alt="" class="img-repsonsive"></a>
+				</div>
+				<div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+					<a href="#"><img src="images/logo_03.png" alt="" class="img-repsonsive"></a>
+				</div>
+				<div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+					<a href="#"><img src="images/logo_04.png" alt="" class="img-repsonsive"></a>
+				</div>
+				<div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+					<a href="#"><img src="images/logo_05.png" alt="" class="img-repsonsive"></a>
+				</div>
+				<div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+					<a href="#"><img src="images/logo_06.png" alt="" class="img-repsonsive"></a>
+				</div>
+			</div><!-- end row -->
+		</div><!-- end container -->
+	</div><!-- end section -->
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-xs-12">
+					<div class="widget clearfix">
+						<div class="widget-title">
+							<h3>About US</h3>
+						</div>
+						<p> Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus
+							bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis
+							dis montes.</p>
+						<div class="footer-right">
+							<ul class="footer-links-soi">
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-github"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+								<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+							</ul><!-- end links -->
+						</div>
+					</div><!-- end clearfix -->
+				</div><!-- end col -->
+
+				<div class="col-lg-4 col-md-4 col-xs-12">
+					<div class="widget clearfix">
+						<div class="widget-title">
+							<h3>Information Link</h3>
+						</div>
+						<ul class="footer-links">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">Pricing</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul><!-- end links -->
+					</div><!-- end clearfix -->
+				</div><!-- end col -->
+
+				<div class="col-lg-4 col-md-4 col-xs-12">
+					<div class="widget clearfix">
+						<div class="widget-title">
+							<h3>Contact Details</h3>
+						</div>
+
+						<ul class="footer-links">
+							<li><a href="mailto:#">info@yoursite.com</a></li>
+							<li><a href="#">www.yoursite.com</a></li>
+							<li>PO Box 16122 Collins Street West Victoria 8007 Australia</li>
+							<li>+61 3 8376 6284</li>
+						</ul><!-- end links -->
+					</div><!-- end clearfix -->
+				</div><!-- end col -->
+
+			</div><!-- end row -->
+		</div><!-- end container -->
+	</footer><!-- end footer -->
+
+	<div class="copyrights">
+		<div class="container">
+			<div class="footer-distributed">
+				<div class="footer-center">
+					<p class="footer-company-name">All Rights Reserved. &copy; 2018 <a href="#">SecqurAIse Technologies</a></p>
+                </div>
+				
+			</div>
+		</div><!-- end container -->
+	</div><!-- end copyrights -->
+
+	<a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+	<!-- ALL JS FILES -->
+	<script src="js/all.js"></script>
+	<!-- ALL PLUGINS -->
+	<script src="js/custom.js"></script>
+
+</body>
+
+</html>
